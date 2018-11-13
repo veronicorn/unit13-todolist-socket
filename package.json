@@ -1,0 +1,24 @@
+{
+  "name": "unit13-todolist-socket",
+  "version": "1.0.0",
+  "description": "There are **3 parts** to this homework. The homework is only complete if **all** parts are submitted.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/veronicorn/unit13-todolist-socket.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/veronicorn/unit13-todolist-socket/issues"
+  },
+  "homepage": "https://github.com/veronicorn/unit13-todolist-socket#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongoose": "^5.3.11",
+    "socket.io": "^2.1.1"
+  }
+}
