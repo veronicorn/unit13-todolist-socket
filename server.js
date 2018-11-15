@@ -9,8 +9,8 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static('public'));
 
-// mongoose.connect('mongodb://user:password@ds035907.mlab.com:35907/heroku_2ccg3x3c', { useNewUrlParser: true });
-mongoose.connect('mongodb://localhost/SocketToDo',{ useNewUrlParser: true });
+mongoose.connect('mongodb://user:password@ds035907.mlab.com:35907/heroku_2ccg3x3c', { useNewUrlParser: true });
+// mongoose.connect('mongodb://localhost/SocketToDo',{ useNewUrlParser: true });
 
 require('./sockets/todo-sockets')(io);
 require('./routes/html-routes')(app);
