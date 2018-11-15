@@ -17,19 +17,3 @@ Use this image as your UI guide.
 When you add or delete a to do entry it should automatically appear or disapear in every window or tab in which the to do list application is open.
 
 Your application must be deployed to Heroku with Mongo. Submit a Github and Heroku link to BCS.
-
----
-
-## Part 2: Blog Post
-
-Make a blog post to DEV.to or Medium with at least 250 words plus code and/or pictures about a coding-related topic.
-
-Submit a link to your blog post to BCS.
-
----
-
-## Part 3: Make a PR
-
-Make a PR to an open source project. If you have a hard time finding a project talk to the instructional staff.
-
-Submit a link to the PR to BCS.
