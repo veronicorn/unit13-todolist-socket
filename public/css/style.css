@@ -1,0 +1,110 @@
+body {
+    font-family: 'Roboto';
+    font-size: 1.5em;
+    background-color: #dbd2c0;
+  }
+  
+  header {
+    display: grid;
+    color: #000000;
+    font-size: 40pt;
+    text-align: left;
+    padding: 10px;
+    font-weight: 100;
+  }
+  
+  .date {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  #new-todo-text {
+    width: 420px;
+    margin: 15px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000000;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+  
+  #new-todo-text:focus {
+    outline: none;
+  }
+  
+  .day {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #7b7e84;
+    margin: 5px;
+  }
+  
+  .month, .year {
+    font-size: 014pt;
+    margin: 5px;
+  }
+  
+  .wrapper {
+    width: 500px;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid transparent;
+    background-origin: border-box;
+    box-shadow: 2px 2px 2px 2px #585a5e;
+    background-clip: content-box, border-box;
+    background-color: #ffffff;
+  }
+  
+  #todos {
+    display: grid;
+    grid-template-rows: auto;
+    grid-gap: 20px;
+    padding: 15px;
+    color: #000000;
+    text-transform: uppercase;
+  }
+  
+  .todo {
+    border-radius: 10px;
+    text-align: left;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    font-weight: 100;
+  }
+  
+  .list-text {
+    flex: 1;
+    padding: 4px;
+    padding-left: 10px;
+  }
+  
+  .delete,
+  .submit {
+    padding: 0;
+    border: none;
+    font: inherit;
+    background-color: transparent;
+    cursor: pointer;
+    color: #2fb3ca;
+  }
+  
+  .delete {
+    color: #2fb3ca;
+  }
+  
+  @media only screen and (max-width: 600px) {
+  
+    .wrapper {
+        border: none;
+    }
+  
+    .truncate {
+        width: 600px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+  }
