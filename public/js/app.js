@@ -128,17 +128,17 @@ $(function () {
 
     render();
 
-    const socket = io();
-    socket.on('new todo', function (todo) {
-        console.log(todo);
-        getTodos();
-    });
-    socket.on('delete todo', function (todo) {
-        console.log(todo);
-        getTodos();
-    });
-    socket.on('update todo', function (todo) {
-        console.log(todo);
-        getTodos();
-    });
+    // const socket = io();
+    // socket.on('new todo', function (todo) {
+    //     console.log(todo);
+    //     getTodos();
+    // });
+    // socket.on('delete todo', function (todo) {
+    //     console.log(todo);
+    //     getTodos();
+    // });
+    // socket.on('update todo', function (todo) {
+    //     console.log(todo);
+    //     getTodos();
+    // });
 });

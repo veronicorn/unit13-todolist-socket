@@ -16,10 +16,11 @@ module.exports = function (io) {
         socket.on('new-message', function (data) {
             console.log(data);
             socket.emit()
-    //   const socket1 = users[data.user1];
-    //   const socket2 = users[data.user2];
+            const socket1 = users[data.user1];
+            const socket2 = users[data.user2];
 
-    //   socket1.emit('emit-message', data);
-    //   socket2.emit('emit-message', data);
-    });
-})};
+            socket1.emit('emit-message', data);
+            socket2.emit('emit-message', data);
+        });
+    })
+};
